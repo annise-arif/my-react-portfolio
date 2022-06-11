@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <p className="text-white d-flex justify-content-between">
           <div>
-          &copy;2022. Developed with <span className="text">❤</span> Love For
+          Copyright &copy; 2022. Developed with <span className="text">❤</span> Love For
           Developer MD: Arif Hasan. Portfolio
           </div>
           <div className="ms-3">

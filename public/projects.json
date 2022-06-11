@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Digital Hammer Drill Station",
+        "img": "https://i.ibb.co/G97kWjk/h.png",
+        "img1": "https://i.ibb.co/k1kg1FK/h1.png",
+        "img2": "https://i.ibb.co/FKJFy3q/h2.png",
+        "desc": " login, Sign Up, dashboard, An admin roled operations, Tools, and responsive homepage and Order Page includes the private route",
+        "description": "google firebase authentication with email and social, react firebase hooks, tailwind css, daisyUi of tailwind components, react router, react query, fontAwesome icon"
+
+    },
+    {
+        "id": 2,
+        "name": "Ware House Of Car",
+        "img": "https://i.ibb.co/2cZpMvH/web-11.png",
+        "img1": "https://i.ibb.co/HCHHxRG/web-12.png",
+        "img2": "https://i.ibb.co/HCHHxRG/web-12.png",
+        "desc": "google firebase authentication with email and social, product quantity manage and at a time update data from database",
+        "description": "A Car Salesperson, or Auto Sales Representative, is responsible for selling cars, trucks and vans for personal and commercial use."
+
+    },
+    {
+        "id": 3,
+        "name": "Memorable Journeys",
+        "img": "https://i.ibb.co/tcYKqD2/web-10.png",
+        "img1": "https://i.ibb.co/HCHHxRG/web-12.png",
+        "img2": "https://i.ibb.co/HCHHxRG/web-12.png",
+        "desc": "Email Password and google sign in system, display user Email to the navBar, services section, Require Auth System, Check out route",
+        "description": "This is the best traveling web site of Bangladesh tourist any time you can book our service"
+
+    }
+    
+    
+]

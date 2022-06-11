@@ -1,5 +1,7 @@
 /* profile start here for mobile*/
-
+body{
+    overflow-x: hidden;
+}
 
 .profile{
     padding: 130px 10px;
@@ -100,15 +102,16 @@
 
  /* about me start here */
 .about-me{
+    overflow: hidden;
     background-color: #39a4ac;
-    padding: 1% 7%;
+    padding: 2% 7%;
     color: white;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 .aboutme-image img{
-    margin-top: 70px;
+    margin-top: 45px;
     border: 5px solid white;
     border-radius: 50%;
     height: 220px;
@@ -356,6 +359,7 @@
     padding: 1% 7%;
     background-color: #39a4ac;
     color: white;
+    width: 100%;
 }
 
 .contact{

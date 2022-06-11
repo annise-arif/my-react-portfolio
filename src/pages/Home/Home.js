@@ -5,21 +5,22 @@ import me from "../../Images/me.jpg";
 import skill from "../../Images/skill.png";
 import work from "../../Images/work.png";
 import "./Home.css";
+import Projects from "./Projects/Projects";
 
 const Home = () => {
   return (
     <>
       <div className="container">
         <div className="profile">
-          <img
+          <img data-aos="fade-up" data-aos-duration="3000"
             className="top-weather-icon rounded-circle"
             src={weather}
             alt="png"
           />
           <div className="profile-desc">
             <h1>
-              I am a web designer
-              <br /> & <br /> Web Developer
+              <span data-aos="zoom-in" data-aos-duration="3000">MD: Arif hasan</span> 
+              <br /> <br /><span data-aos="zoom-in-left" data-aos-duration="3000">Web Developer</span>
             </h1>
             <p>
               Hi! My name is MD:Anis hossain arif Sheikh. Welcome to my personal
@@ -27,43 +28,33 @@ const Home = () => {
               I've accumulated over the year.
             </p>
           </div>
-          <img className="bottom-weather-icon" src={weather} alt="png" />
+          <img data-aos="fade-up" data-aos-duration="3000" className="bottom-weather-icon" src={weather} alt="png" />
           <a
             href="https://drive.google.com/file/d/1XcTACgaZD-Nz4tg_-3TovfzfvSzauyLh/view?usp=sharing"
             target="blank"
           >
-            <button className="cv-button mt-4">Download Resume</button>
+            <button data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className="cv-button mt-4">Download Resume</button>
           </a>
         </div>
       </div>
 
-      {/* project section start */}
-
-
-        <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-                
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-
-            </div>
-        </div>
-
-
-      {/* project section end */}
+     
 
       <div className="aboutMe">
         <div className="about-me" id="about-me-id">
-          <h2>ABOUT ME</h2>
+          <h2 data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">ABOUT ME</h2>
           <hr className="dotted-hr" />
           <div className="row">
             <div className="aboutme-image col-lg-6 col-12">
-              <img className="" src={me} alt="img" />
+              <img data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="" src={me} alt="img" />
             </div>
-            <div className="aboutme-desc col-lg-6 col-sm-12 col-md-6 mt-4">
+            <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="aboutme-desc col-lg-6 col-sm-12 col-md-6 mt-4">
               <p>
                 I like to call myself ``a passionate computer science learner &
                 Web developing".
@@ -91,16 +82,10 @@ const Home = () => {
               </p>
               <hr className="aboutme-hr" />
               <p>
-                <b>Phone:</b> <a href="tel:+8801861449772">+8801861449772</a>
+                <b>Phone:</b> <a href="tel:+8801861449772">01303477672</a>
               </p>
               <hr className="aboutme-hr" />
-              <p>
-                <b>Page:</b>{" "}
-                <a href="https//www.anis.com" target="blank">
-                  https//www.anis.com
-                </a>
-              </p>
-              <hr className="aboutme-hr" />
+              
             </div>
           </div>
         </div>
@@ -108,7 +93,9 @@ const Home = () => {
       {/* ========================== Professional-experience ========================== */}
       <div className="Professional-experience row">
         <div className="work-experience  col-lg-4 col-sm-12 col-md-6 mt-4">
-          <div className="card">
+          <div data-aos="zoom-out-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="card">
             <div className="card-icon">
               <img className="rounded-img" src={work} alt="work icon" />
             </div>
@@ -154,7 +141,9 @@ const Home = () => {
           </div>
         </div>
         <div className="education col-lg-4 col-sm-12 col-md-6 mt-4">
-          <div className="card">
+          <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="card">
             <div className="card-icon">
               <img className="rounded-img" src={book} alt="work icon" />
             </div>
@@ -206,7 +195,8 @@ const Home = () => {
           </div>
         </div>
         <div className="skills col-lg-4 col-sm-12 col-md-6 mt-4" id="skill-id">
-          <div className="card">
+          <div data-aos="fade-up"
+     data-aos-duration="3000" className="card">
             <div className="card-icon">
               <img className="rounded-img" src={skill} alt="work icon" />
             </div>
@@ -235,37 +225,32 @@ const Home = () => {
       <br />
       {/* ========================== Professional-experience end ========================== */}
       <div className="achievement-contact row">
-        <div className="achievement col-lg-4 col-sm-12">
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="achievement col-lg-4 col-sm-12">
           <h2>ACHIEVEMENTS</h2>
           <hr className="dotted-hr" />
-          <p>
-            1.consectetur adipisicing elit. Omnis placeat laudantium tempore
-            cupiditate consectetur, numquam eaque ut voluptatibus laboriosam
-            nesciunt.
+          <p className="mt-5 pt-5">
+            1. I have achieve jsc school certificate from sreepur pilot heigh school.
           </p>
           <p>
-            2. public Bank Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Reprehenderit nesciunt facilis ipsam architecto, recusandae
-            odit unde vero?
+            2. I Have completed senior school certificate from potka karigori school
           </p>
           <p>
-            3. Silver Button Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Iure sapiente provident rem suscipit. Sed, quam.
+            3. I have achieve Diploma in Electronics Engineering certificate from Model institute of science and technology (MIST), Gazipur, Shibbari, Duet. 1740
           </p>
           <p>
-            4. IELTS 7 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ullam facilis totam nam numquam magnam similique repellendus ad unde
-            quasi?
+            4. I Have achieve Complete web development Main course with Jhankar Mahbub brother from web.programming-hero.com and I am learning SCIC bonus content for Job Hunting and getting Job.. 
           </p>
         </div>
 
-        <div className="contact col-lg-4 col-sm-12" id="contactme-id">
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className="contact col-lg-4 col-sm-12" id="contactme-id">
           <h2> CONTACT ME</h2>
           <hr className="dotted-hr" />
 
           <form
             action="mailto:arifhasan.neon@gmail.com"
-            enctype="text/plain"
+            encType="text/plain"
             method="POST"
           >
             <p>
@@ -287,54 +272,16 @@ const Home = () => {
           </form>
         </div>
 
-        <div className="contact-links col-lg-4 col-sm-12">
+        <div data-aos="zoom-out-left" className="contact-links col-lg-4 col-sm-12">
           <h2>MORE WAYS TO CONTACT</h2>
           <hr className="dotted-hr" />
           <div className="media-buttons align-items-center">
-            <button
-              className="btn"
-              onclick="window.open('https://www.youtube.com/channel/UCAVndfkblprqNVhoKvr4Wgw/videos')"
-              className="request-callback"
-            >
-              <i className="fab fa-github" aria-hidden="true"></i>
-            </button>
-            <button
-              className="btn"
-              onclick="window.open('https://www.youtube.com/channel/UCAVndfkblprqNVhoKvr4Wgw/videos')"
-              className="request-callback px-4"
-            >
-              <i
-                className="fab fa-facebook-f text-primary"
-                aria-hidden="true"
-              ></i>
-            </button>
-            <button
-              className="btn"
-              onclick="window.open('https://www.youtube.com/channel/UCAVndfkblprqNVhoKvr4Wgw/videos')"
-              className="request-callback mt-2"
-            >
-              <i className="fab fa-skype text-success" aria-hidden="true"></i>
-            </button>
-            <button
-              className="btn"
-              onclick="window.open('https://www.youtube.com/channel/UCAVndfkblprqNVhoKvr4Wgw/videos')"
-              className="request-callback"
-            >
-              <i
-                className="fab fa-linkedin-in text-info"
-                aria-hidden="true"
-              ></i>
-            </button>
-            <button
-              className="btn"
-              onclick="window.open('https://www.youtube.com/channel/UCAVndfkblprqNVhoKvr4Wgw/videos')"
-              className="request-callback py-3 px-4"
-            >
-              <i className="fab fa-youtube text-danger" aria-hidden="true"></i>
-            </button>
+            <h3 className="mx-3">Go To Footer for Social Contact Don't hasitate to contact me</h3>
+
           </div>
         </div>
       </div>
+       <Projects></Projects>
     </>
   );
 };
