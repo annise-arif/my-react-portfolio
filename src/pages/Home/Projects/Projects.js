@@ -14,12 +14,12 @@ const Projects = () => {
     }, []);
 
   return (
-    <div>
+    <div id="projects">
       {/* project section start */}
 
       <div className="row container mx-auto">
         <h1 className="text-center text-dark mt-5">
-          My Pr<span style={{ color: "#39a4ac" }}>o</span>jects
+          My Recent Pr<span style={{ color: "#39a4ac" }}>o</span>jects
         </h1>
         {
             projects.map(project => <Project

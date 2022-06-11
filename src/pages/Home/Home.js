@@ -3,7 +3,6 @@ import book from "../../Images/book.png";
 import weather from "../../Images/images-weather.png";
 import me from "../../Images/me.jpg";
 import skill from "../../Images/skill.png";
-import work from "../../Images/work.png";
 import "./Home.css";
 import Projects from "./Projects/Projects";
 
@@ -29,10 +28,7 @@ const Home = () => {
             </p>
           </div>
           <img data-aos="fade-up" data-aos-duration="3000" className="bottom-weather-icon" src={weather} alt="png" />
-          <a
-            href="https://drive.google.com/file/d/1XcTACgaZD-Nz4tg_-3TovfzfvSzauyLh/view?usp=sharing"
-            target="blank"
-          >
+          <a href="https://drive.google.com/file/d/1XcTACgaZD-Nz4tg_-3TovfzfvSzauyLh/view?usp=sharing" download target="_blank">
             <button data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className="cv-button mt-4">Download Resume</button>
           </a>
         </div>
@@ -50,7 +46,7 @@ const Home = () => {
             <div className="aboutme-image col-lg-6 col-12">
               <img data-aos="fade-right"
      data-aos-offset="300"
-     data-aos-easing="ease-in-sine" className="" src={me} alt="img" />
+     data-aos-easing="ease-in-sine" src={me} alt="img" />
             </div>
             <div data-aos="fade-left"
      data-aos-offset="300"
@@ -97,44 +93,50 @@ const Home = () => {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="card">
             <div className="card-icon">
-              <img className="rounded-img" src={work} alt="work icon" />
+              <img className="rounded-img" src="https://i.ibb.co/0ftP8y5/tools.png" alt="work icon" />
             </div>
             <div className="card-title">
-              <h2>WORK EXPERIENCE</h2>
+              <h2>Using Tools</h2>
             </div>
             <div className="card-desc">
               <ol>
                 <li>
-                  <strong>Student of Science technology</strong> <br />
-                  01/06/2016-01/08/2017 <br />
-                  Sreepur Pilot High School <br />
-                  Dhaka, Sreepur, Gazipur ( Bangladesh) <br />
+                  <strong>Code Editor</strong> <br />
+                 Visual studio code <br />
+                  Nodepade++ <br />
+                  Sublime Code <br />
                 </li>
                 <hr />
                 <li>
                   <strong>
-                    Student of Electronics Engineering & Web Designing
+                    Image hosting & processing
                   </strong>{" "}
                   <br />
-                  10/11/2017-03/12/2018 <br />
-                  Model institute of science & technology. Gazipur (MIST
+                  Figma <br />
+                  Imagebb.com <br />
+                  Project file
                   <br />
-                  Gazipur, shibbari, DUET, ( Bangladesh) <br />
                 </li>
                 <hr />
                 <li>
-                  <strong>Student of Science technology</strong> <br />
-                  01/06/2016-01/08/2017 <br />
-                  Sreepur Pilot High School <br />
-                  Dhaka, Sreepur, Gazipur ( Bangladesh) <br />
+                  <strong>Database</strong> <br />
+                  MongoDB <br />
                 </li>
                 <hr />
                 <li>
-                  <strong> Web Designer & Developer</strong> <br />
-                  19/05/2018-03/02/2012 <br />
-                  Model institute of science & technology. Gazipur (MIST
+                  <strong>Project Hosting & Code</strong> <br />
+                  Netlify <br />
+                  Google Firebase <br />
+                  Github
                   <br />
-                  Gazipur, shibbari, DUET, ( Bangladesh) <br />
+                </li>
+                <hr />
+                <li>
+                  <strong>Server</strong> <br />
+                  Heroku <br />
+                  Node.js
+                  <br />
+                 Express.js
                 </li>
               </ol>
             </div>
@@ -151,52 +153,60 @@ const Home = () => {
               <h2>EDUCATION AND TRAINING</h2>
             </div>
             <div className="card-desc">
-              <ol>
-                <li>
-                  <strong>Student of Science technology</strong> <br />
-                  01/06/2016-01/08/2017 <br />
-                  Sreepur Pilot High School <br />
-                  Dhaka, Sreepur, Gazipur ( Bangladesh) <br />
-                  <a className="" href="https://youtu.be/JjQYJFyEckE">
-                    Subscribe my channel
-                  </a>
-                </li>
-                <hr />
-                <li>
-                  <strong>
-                    Student of Electronics Engineering & Web Designing
-                  </strong>{" "}
-                  <br />
-                  10/11/2017-03/12/2018 <br />
-                  Model institute of science & technology. Gazipur (MIST
-                  <br />
-                  Gazipur, shibbari, DUET, ( Bangladesh) <br />
-                </li>
-                <hr />
-                <li>
-                  <strong>Student of Science technology</strong> <br />
-                  01/06/2016-01/08/2017 <br />
-                  Sreepur Pilot High School <br />
-                  Dhaka, Sreepur, Gazipur ( Bangladesh) <br />
-                </li>
-                <hr />
-                <li>
-                  <strong> Web Designer & Developer</strong> <br />
-                  19/05/2018-03/02/2012 <br />
-                  Model institute of science & technology. Gazipur (MIST
-                  <br />
-                  <a className="" href="https://youtu.be/JjQYJFyEckE">
-                    Subscribe my channel
-                  </a>{" "}
-                  <br />
-                </li>
-              </ol>
+            <ol>
+          <li>
+            <strong>Student of School</strong>
+            <br />
+            01/02/2009 _ 12/30/2015-16 <br />
+            <b>School:</b> Sreepur Pilot High School <br />
+            <b>Address:</b> Dhaka, Sreepur, Gazipur ( Bangladesh) <br />
+            
+          </li>
+          <hr className="my-3" />
+          <li>
+            <strong>Student of Diploma In Electronics Engineering</strong>{" "}
+            <br />
+            02/24/2017 _ 12/30/2021 <br />
+           <b>College:</b> Model institute of science & technology. Gazipur (MIST)
+            <br />
+           <b>Address:</b> Gazipur, shibbari, DUET, (1700)  ( Bangladesh) <br />
+           <b>WebSite:</b> <a className=" text-blue-400" target="_blank" href="https://mistte.org/">
+              Model Institute Of....
+            </a>
+          </li>
+          <hr className="my-3"/>
+          <li>
+            <strong>Studying Web Development</strong> <br />
+            01/06/2018 _ 05/30/2022... <br />
+            I was learning and following W3schools YouTube and I google search <br />
+            <b>Address</b> Dhaka, Sreepur, Gazipur ( Bangladesh) <br />
+          </li>
+          <hr className="my-3"/>
+          
+          <li>
+          <mark>
+            <strong> Complete Web Development Course with Jhankar Mahbub brother</strong> <br />
+            01/01/2022 _ 06/11/2022... <br />
+            Complete Web Development Course with Jhankar Mahbub 
+            <br />
+            <b>Address:</b> Level-4, 34, Awal Centre, Banani, Dhaka
+            <br />
+            <b>WebSite: </b> <a className="text-blue-400" href="https://youtu.be/JjQYJFyEckE">
+               Complete Web Dev..
+            </a>
+            <br />
+            </mark>
+          </li>
+          
+          
+        </ol>
             </div>
           </div>
         </div>
         <div className="skills col-lg-4 col-sm-12 col-md-6 mt-4" id="skill-id">
-          <div data-aos="fade-up"
-     data-aos-duration="3000" className="card">
+          <div data-aos="zoom-out-left"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine" className="card">
             <div className="card-icon">
               <img className="rounded-img" src={skill} alt="work icon" />
             </div>
