@@ -18,8 +18,8 @@ const Home = () => {
           />
           <div className="profile-desc">
             <h1>
-              <span data-aos="zoom-in" data-aos-duration="3000">MD: Arif hasan</span> 
-              <br /> <br /><span data-aos="zoom-in-left" data-aos-duration="3000">Web Developer</span>
+              <span data-aos="zoom-in" data-aos-duration="3000">Web Developer</span> 
+              <br /> <br /><span data-aos="zoom-in-left" data-aos-duration="3000">MD: Arif hasan</span>
             </h1>
             <p>
               Hi! My name is MD:Anis hossain arif Sheikh. Welcome to my personal
